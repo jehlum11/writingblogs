@@ -1,0 +1,108 @@
+created_by: jehlum11
+version: 3
+domain: Types of content
+document_outline: >-
+  This guide details Red Hat’s standard content types that Red Hat's marketing
+  team can use for current and prospective Red Hat customers and partners. This
+  guide goes over different content types, including intended audiences and use
+  cases, buying cycle stages, templates, and the content creation process.
+seed_examples:
+  - context: >-
+      Marketing teams can build customer-facing content that can be used to
+      reach both current and prospective customers. Other internal content can
+      be used for sales and partner teams.
+    questions_and_answers:
+      - question: What are some examples of public-facing content?
+        answer: >-
+          Blogs, analyst reports, case studies (or customer references), emails,
+          ebooks, videos are some examples of external content.
+      - question: What are some internal content types?
+        answer: >-
+          Internal content can be used for enabling internal teams like sales
+          and partners. It cannot be used externally. This includes messaging
+          guides, battle cards etc.
+      - question: Where can blogs be used?
+        answer: >-
+          External content, like blogs, can be used as a part of sales
+          conversations, marketing compaigns, events.
+  - context: >-
+      Blogs are typically posted on a customer-facing website (in an HTML
+      format) and it can be for both business and technical users. Blogs should
+      be between 500-2000 words in length or a 2-5 minute read.
+    questions_and_answers:
+      - question: What are common sections in a blog?
+        answer: >-
+          Common sections in a blog typically include a title that clearly
+          illustrates what the blog is about, a date so the audience can gauge
+          how recent it is, relevant information presented in a clear, concise
+          manner, and a call to action that helps users know what to do next.
+      - question: Why would a user be reading a blog?
+        answer: >-
+          A user would be curious to learn more when reading a blog - hence, a
+          blog should be accurate, provide relevant data like screenshots,
+          citations etc.
+      - question: What are some good blogs?
+        answer: >-
+          How-to blogs, learning paths, reasons to choose a certain product or a
+          feature, what is present in a new release, etc. are good blogs.
+  - context: >-
+      Press releases are public-facing assets that are posted on the official
+      Red Hat website and they are used for announcements etc.
+    questions_and_answers:
+      - question: What is a press release?
+        answer: >-
+          Press releases provide official announcements for product releases and
+          other company information.
+      - question: What are common sections?
+        answer: >-
+          In a press release, a catchy, clear title that summarizes the new
+          information is important, as well as resources and quotes from people.
+      - question: Who typically reads a press release?
+        answer: >-
+          The audience for press releases is wide - news media, investors,
+          existing and prospective customers can be reading Press Releases.
+  - context: >-
+      It is important to understand who the audience is for a blog or other
+      content types. Based on that, the piece can be as technical and detailed
+      or as business results-focused.
+    questions_and_answers:
+      - question: >-
+          Why is understanding an audience persona important when writing
+          content?
+        answer: >-
+          When an author understands who they are writing or creating for, they
+          are able to tailor their content better. For business-focused personas
+          like the C-suite, press releases, customer studies are good sources.
+      - question: What is important to a data scientist?
+        answer: >-
+          Data scientists are responsible to use data, analytics to drive
+          solutions and innovation. They want to stay up to date with new ways
+          to achieve goals, optimize use of data, and get insights.
+      - question: What does a developer do?
+        answer: >-
+          A developer or software engineer is focused on building applications
+          that solve users' needs, with the resources they have.
+  - context: >-
+      Some best practices when creating content for Red Hat are using correct
+      terms, product names, asset types. Considering audience's use cases is key
+      to understanding what type of content to create.
+    questions_and_answers:
+      - question: When writing a piece of content, what should authors be careful with?
+        answer: >-
+          Authors should use product names correctly, i.e. use full names, avoid
+          jargon, provide citations.
+      - question: What types of sources are best?
+        answer: >-
+          Recent sources are the most helpful. Analyst sources, quotes,
+          journalist sources and reports can be used.
+      - question: What are blog posts best suited for?
+        answer: >-
+          Blog posts are best suited to talk about product releases, about
+          product features, how to use certain features, talking to technical
+          audiences like developers, data scientists. If the topic is
+          appropriate , a blog can also reach a business leader persona.
+document:
+  repo:
+  commit:
+  patterns:
+    -
