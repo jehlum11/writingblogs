@@ -1,0 +1,135 @@
+created_by: jehlum11
+version: 3
+domain: Technical blogs
+document_outline: >-
+  This guide covers best practices when writing a blog that will be published on
+  the official Red Hat website. The Red Hat blog publishes content that
+  resonates with an organic search audience of sysadmins, architects, and IT
+  decision-makers.
+seed_examples:
+  - context: >-
+      The Red Hat blog publishes content that resonates with an organic search
+      audience of sysadmins, architects, and IT decision-makers. Its objectives
+      are to:
+
+      Grow an audience for Red Hat,
+
+      Guide the audience from unknown to known,
+
+      Do this efficiently with the highest quality and consistency.
+    questions_and_answers:
+      - question: What are the main objectives when writing a blog for Red Hat?
+        answer: >-
+          Authors should intend to educate and inform the audience reading the
+          blog and guide them towards a solution with high quality content.
+      - question: What types of blog posts can be written?
+        answer: >-
+          Blog posts can include demos, tutorials, thought leadership,
+          information on what is included in a new product release, listicles
+          etc.
+      - question: What is the type of audience the blog can be written for?
+        answer: >-
+          Both protective users and existing customers read the Red Hat blog.
+          Admins, IT Operation teams, developers, data scientists can be reading
+          the blog. The aim should be to educate all readers.
+  - context: >-
+      Maintaining the proper voice, i.e. being open, clear and compelling are
+      important when writing a blog. The audience should be front and center -
+      we want them to take away valuable information. There are different ways
+      to present this information - in the form of 'how-to' blogs etc.
+    questions_and_answers:
+      - question: What tone and voice should the blog be written in?
+        answer: >-
+          The author should be open, authentic, helpful, clear, concise,
+          conversational, credible and compelling.
+      - question: What are some examples of how the blog can be presented?
+        answer: >-
+          Authors should be concise: 'The Red Hat AI platform is hybrid,
+          consistent and open'. A how-to blog can say, 'How to upload a model in
+          3 steps'.
+      - question: What are some considerations when writing a blog?
+        answer: >-
+          The intended audience should be front and centre. Be clear, show the
+          audience how something can be done with a video or a tutorial.
+  - context: >-
+      The different types of blogs are: High level product demos and case
+      studies,
+
+      Tutorials,
+
+      Thought leadership,
+
+      Event summaries and takeaways,
+
+      Interviews,
+
+      Listicles and roundups. Each of these have different structures. But, a
+      catchy informative title and a call to action is common to all.
+    questions_and_answers:
+      - question: What is the flow of a how-to blog?
+        answer: >-
+          A how-to blog should introduce the audience to the concept that will
+          be covered with a catchy title and a brief introduction. Highlight
+          what the users will need prior to starting the tutorial. And, follow
+          with precise instructions with demos or screenshots.
+      - question: How can a product release blog be structured?
+        answer: >-
+          A product release blog should specify the product name, version number
+          and briefly highlight the major value of the release in the title and
+          introduction. In the body, it should briefly go over the new updates
+          in the product and clearly highlight the benefits to the users. It can
+          also cover how to try the new features.
+      - question: Why is a call to action important?
+        answer: >-
+          A call to action is important because it gives the author an
+          opportunity to guide the user where they can go next. Getting the user
+          to learn more about the product by signing up for a trial etc. is
+          helpful.
+  - context: >-
+      Blog posts can be anywhere between 500-1300 words, depending on different
+      types of blogs. More information can be conveyed in technical, how-to
+      blogs.
+    questions_and_answers:
+      - question: How long can a blog post be?
+        answer: >-
+          The length of the blog depends on the type of the blog post - for an
+          update or announcement, 500-600 words is a good length. For a
+          technical post 800-1300 words are helpful.
+      - question: What are examples of good titles for blogs?
+        answer: >-
+          Good titles include: 'How can you use ArgoCD on Red Hat OpenShift?',
+          '10 useful learning paths for RHEL AI users', 'How can you use
+          InstructLab?'
+      - question: What is a good blog post outline?
+        answer: >
+          Establish a thesis statement for your blog - highlight the problem
+          being solved.
+
+          Written SEO-friendly subheadings
+
+          Provided the vital information about the topic - cover the three most
+          important points
+  - context: >
+      Unstructured text is dense and hard to read, so make ample use of
+      headings, whitespace and formatting to help readers better navigate and
+      parse your blog post.
+    questions_and_answers:
+      - question: How can authors structure the blog post?
+        answer: >-
+          Structure the blog post well - provide section headlines and good
+          formatting.
+      - question: How can authors use formatting in a blog post?
+        answer: >-
+          Make use of things like bold text, italics, and indents to set
+          important information apart.
+      - question: How can authors 'show and tell' in a blog post?
+        answer: >
+          Use images like charts and graphs, infographics, timelines, and
+          screenshots to illustrate and reinforce your message where it makes
+          sense.
+document:
+  repo: >-
+    https://github.com/jehlum11/writingblogs
+  commit: e9aad510331b57cb358fe80dc1854c2d88432990
+  patterns:
+    - "blogs/*.md"

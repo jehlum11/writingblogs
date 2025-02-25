@@ -1,0 +1,129 @@
+created_by: jehlum11
+version: 3
+domain: Blog writing knowledge and style
+document_outline: >-
+  The document goes over guidelines and best practices for different content
+  types when writing for Red Hat. It highlights the content strategy, voice,
+  types of content employees can put out, as well as what not to do when writing
+  something.
+seed_examples:
+  - context: >-
+      When publishing content on behalf of Red Hat, authors should focus on what
+      the customers want to hear - they should highlight important information,
+      ideas, perspectives with trusted data, rather than just promote a
+      product.
+    questions_and_answers:
+      - question: What are audiences looking for when they're consuming Red Hat content?
+        answer: >-
+          Audiences, both current customers and prospective customers, are
+          looking for honest information, presented in a creative and engaging
+          manner. They want content that provides value to them with new ideas,
+          a balanced view of industry trends, and credibility, rather than a
+          piece of content that is just trying to sell a product.
+      - question: 'How can authors provide good content? '
+        answer: >-
+          Show audiences what your product can do, rather than just telling
+          them. For example, a piece that goes over the steps needed to install
+          Red Hat OpenShift on AWS can be more valuable than a piece that just
+          tells users that Red Hat OpenShift can be installed on AWS. Authors
+          can use screenshots, demos etc. to illustrate this further, as well as
+          assure users that this is based on factual data.
+      - question: What is the tone of voice when putting out a piece?
+        answer: >-
+          Follow the Red Hat brand values - be open, honest, use correct product
+          names, cite sources.
+  - context: >-
+      Red Hat's content strategy reflects the brand value. Voice and tone are
+      important - it is about what the author says and how it makes the readers
+      feel. Authors should consider what is most valuable to their audience and
+      what they will take away from the piece.
+    questions_and_answers:
+      - question: |
+          What is the Red Hat voice?
+        answer: >-
+          It is important to be confident and experienced, while being humble.
+          Authors should avoid jargon - be compassionate  and try to meet
+          audiences where they are.
+      - question: Why is tone important?
+        answer: >-
+          Tone can be changed based on the intended audience, medium and topic.
+          Be conversational, clear and intuitive. Avoid jargon, try to
+          communicate information clearly.
+      - question: How does the tone vary based on audiences or types of content?
+        answer: >-
+          With a blog for an experienced user or an advanced customer, the tone
+          can be causal, demonstrative and informal. When writing an informative
+          thought leadership blog, the tone can be illustrative, explain more
+          about the product. When writing a white paper, the tone can be
+          formal.
+  - context: >-
+      When writing content, authors should try not to use a lot of jargon,
+      acronyms without context. We can't expect users to know how we talk.
+      Authors shouldn't use incorrect or outdated product names. The content
+      should be written in a simple, clear manner - a blog should not be verbose
+      just for the sake of verbosity. We should cite our sources.
+    questions_and_answers:
+      - question: >-
+          What are examples of some content best practices when naming tools or
+          products?
+        answer: >-
+          Authors should provide proper context and be illustrative. All terms
+          and products should be spelled out upon first usage so that users are
+          on the same page as the author.
+      - question: How can an author cite sources?
+        answer: >-
+          Citations are important whenever using a quote from another source -
+          be it a company, person etc. Cite recent sources - old data is not
+          helpful. For customer materials, be very careful and try to get
+          approval.
+      - question: What are some writing best practices?
+        answer: >-
+          Simpler, engaging sentences are key. Active use is more helpful and
+          don't be unnecessarily  verbose. Invite users to engage.
+  - context: >-
+      The 5Cs of content are important - authors should be clear, concise,
+      compelling, confident, and credible.
+    questions_and_answers:
+      - question: How can an author be clear and concise?
+        answer: >-
+          Vague information can be confusing - jargon should be avoided, and the
+          piece should get right to the point. We should honor users' time and
+          include all necessary information that they need to know.
+      - question: How can an author be engaging?
+        answer: >-
+          An author should be compelling and confident. Authors should create a
+          narrative, present an engaging idea to bring users along, and
+          confidently state accurate facts.
+      - question: How can an author back up facts?
+        answer: >-
+          Citations are important since it helps build trust and credibility
+          with our users. Users need to know they trust Red Hat. Cite sources
+          and provide relevant evidence.
+  - context: >-
+      When starting a new project, authors should think about who the content is
+      for, what the user's problems are and what the user will find the most
+      valuable.
+    questions_and_answers:
+      - question: >-
+          How can authors determine what content they can put out for
+          prospective customers who are not yet using the product?
+        answer: >-
+          Authors should think about where their audience is in the buyer's
+          journey if they are a prospective buyer. A buyer's journey goes over
+          educating themselves about the options in the market, finding the best
+          solution, and select it.
+      - question: 'What is the user''s journey? '
+        answer: >-
+          For an existing user, think about whether they want to discover what
+          the product does, learn how to solve a problem, evaluate what they are
+          doing and if it fits their need, start adopting the product and its
+          features, and if they like it, use more of the product.
+      - question: 'How can author put out the most valuable piece? '
+        answer: >-
+          Authors should try to put the audience first and provide information
+          that will be useful to them.
+document:
+  repo: https://jehlum11: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@github.com/jehlum11/writingblogs
+  commit: e9aad510331b57cb358fe80dc1854c2d88432990
+  patterns:
+    - "style/*.md"

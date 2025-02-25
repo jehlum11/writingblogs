@@ -1,0 +1,227 @@
+created_by: jehlum11
+version: 3
+task_description: >-
+  This document outlines how to write a blog in a professional, clear manner
+  that are aligned with company values. It gives examples of good blogs where
+  the knowledge is presented in a way that resonates with our audience of
+  admins, developers, data scientists, C-suite, open source enthusiasts  and
+  more.
+seed_examples:
+  - context: >-
+      Tekton grew out of the Knative project and has subsequently been backed by
+      Red Hat as being the future for all things pipeline in Red Hat OpenShift.
+      Tekton is cloud native. Jenkins is Java-based; it’s known to be memory and
+      processor hungry—constantly running—and with the aggregated costs of
+      compute resources, this might start to be viewed as a problem. Tekton
+      integrates from the ground up with the Kubernetes API and security model
+      and strongly encourages loose coupling/reuse. It is event-driven,
+      following the choreography model, so it’s good for controlling the
+      long-running testing-type process. The pipeline artifacts are just
+      additional Kubernetes resources—pod definitions, service accounts,
+      secrets, etc.—that can easily lend themselves to the world of
+      everything-as-code, aligned with the rest of the kubernetes-type
+      ecosystem.
+
+      The blog needs to be catered to a technical audience, it needs to be
+      clear, confident, not rely on jargon.
+    question: >-
+      I need to write a blog comparing Tekton and Jenkins. Can you help me write
+      a technical blog comparing the two tools, with respect to Kubernetes and
+      Red Hat OpenShift?
+    answer: >-
+      Whenever I asked the question “Why is Tekton better than Jenkins?” the
+      most common answer is, “Tekton is cloud native,” usually followed by
+      silence. So I went away and looked for a clear definition of ‘cloud
+      native’ expecting a eureka moment.
+
+      In 2018 the Cloud Native Computing Foundation (CNCF) published this
+      definition: “Cloud native technologies empower organizations to build and
+      run scalable applications in modern dynamic environments such as the
+      public, private and hybrid clouds.”
+
+      So, no obvious enlightenment is to be found there. I also form an
+      irrational attachment to the things that have been in my toolbag for years
+      that work well. In order for me to give faithful old Jenkins his cards, I
+      felt that I needed to be far more convinced that the grass really is
+      greener on the other side of the fence. Tekton needed to offer me
+      something substantially beyond what I already had.
+
+      Ultimately, my conclusion was that in the OpenShift/k8s space, Tekton
+      integrates better and opens up a potential for new opportunities that I
+      don’t think Jenkins can necessarily offer.
+  - context: >-
+      Red Hat Enterprise Linux AI (RHEL AI) is a generative AI model platform to
+      customize, fine-tune and deploy LLMs. It includes open source Granite
+      models, outside the box. It is based on the InstructLab open source
+      project which introduces a novel technique called LAB (Large-scale
+      Alignment for chatBots) for synthetic data generation and fine-tuning.
+
+
+      The main objective of RHEL AI and the InstructLab project is to empower
+      domain experts to contribute directly to Large Language Models with
+      knowledge and skills. This allows domain experts to more efficiently build
+      AI-infused applications (such as chatbots).
+
+      Business and technical readers will read this blog, so it needs to be
+      written in a way that appeals to  both - i.e. define value, adopt a 'show
+      and tell' approach. A data-based announcement is helpful.
+    question: >-
+      I want to write an announcement blog about a new product release, called
+      Red Hat Enterprise Linux AI (RHEL AI). Can you help me write a blog about
+      this?
+    answer: >-
+      Large Language Models (LLMs) and services based on them (like GPT and
+      chatGPT) are well-known and increasingly adopted by enterprises.  However,
+      the openness of these models is limited. And, LLMs today are large and
+      general-purpose. Red Hat envisions a world of purpose-built, cost- and
+      performance-optimized models, surrounded by world class MLOps tooling
+      placing data privacy, sovereignty, and confidentiality.
+
+      Red Hat Enterprise Linux AI (RHEL AI), a foundation model platform to
+      seamlessly develop, test and run best-of-breed, open source Granite
+      generative AI models to power enterprise applications. RHEL AI is based on
+      the InstructLab open source project and combines open source-licensed
+      Granite large language models and InstructLab model alignment tools, based
+      on the LAB (Large-scale Alignment for chatBots) methodology.
+
+      The main objective of RHEL AI and the InstructLab project is to empower
+      domain experts to contribute directly to LLMs with knowledge and skills.
+      This allows domain experts to more efficiently build AI-infused
+      applications.
+  - context: >-
+      The InstructLab project has been putting in the work required to make it
+      easier for anyone to train an LLM. You need to know how to write a YAML
+      document to contribute knowledge and skills.
+
+      Step 1:
+
+      Open a text editor
+
+      Step 2: The InstructLab provides a template file for knowledge content. To
+      download the template, go to github.com/instructlab/taxonomy.
+
+      Step 3: In the docs folder within the taxonomy directory, open the file
+      named template_qna.yamlin your text editor.
+
+      Note: Indentation in YAML is important.
+
+      Step 4: Under each question heading,  write exactly one question that you
+      might anticipate in a conversation about your  topic. Under each answer
+      heading, you write a simple answer to that question.
+
+      A technical reader who will be working with the project hands-on will be
+      following the blog. This needs to be well-explained, like teaching a
+      student in school.
+    question: >-
+      I want to teach the model how to write YAML to contribute knowledge and
+      skills to the upstream InstructLab project. YAML can be daunting for some
+      users, but it can be learned easily. Can you help me write the blog?
+    answer: >-
+      Training a large language model sounds like a specialized and highly
+      technical task. But the InstructLab project is making it easier to train
+      an LLM. All you need to know is how to type text in a simple format called
+      YAML.
+
+      1: Open a text editor
+
+      The easiest way to contribute to an LLM is to contribute knowledge in the
+      form of questions and answers. All you need is a text editor.
+
+      2: Download the template
+
+      InstructLab provides a template file for knowledge content so you don’t
+      have to start from a blank file. To download the template, open a web
+      browser to github.com/instructlab/taxonomy.
+
+      3: Write simplified YAML
+
+      In the docs folder within the taxonomy directory, open the file named
+      template_qna.yamlin your text editor. This file contains a blank
+      question-and-answer session you can use as a template for the knowledge
+      you want to provide training for.
+
+      4: Under each question heading, you write exactly one question that you
+      might anticipate in a conversation about your chosen topic. Under each
+      answer heading, you write a simple answer to that question.
+  - context: >-
+      Agentic AI is a software system designed to interact with data and tools
+      in a way that requires minimal human intervention. With an emphasis on
+      goal-oriented behavior, agentic AI (also known as AI agents) can
+      accomplish tasks by creating a list of steps and performing them
+      autonomously.
+
+      Agentic AI can independently manage and complete tasks.
+
+      Agentic AI is most useful for tasks that require continuous monitoring or
+      rapid decision making.
+
+      Red Hat® AI and our AI partner ecosystem can help customers build agentic
+      workflows and use AI agents.
+
+      Red Hat Enterprise Linux® AI is an agentic orchestration of InstructLab,
+      and can be used for fine-tuning the LLMs and SLMs used by agentic
+      workflows.
+
+      Red Hat OpenShift® AI provides a unified platform to create multi-agent
+      systems. Plus, the adaptive learning and reasoning that AI agents use can
+      be controlled via OpenShift’s MLOps capabilities.
+
+      A business reader will be reading the blog to learn more about how agentic
+      AI can be applied to their use case. The content needs to be explanatory
+      and widely applicable.
+    question: >-
+      I want to write a blog about Agentic AI, explaining what are AI agents and
+      how they can be used by customers for their business applications. I want
+      to highlight how Red Hat Enterprise Linux AI and Red Hat OpenShift AI can
+      help.
+    answer: >-
+      You can think of agentic AI as a way of combining automation with the
+      creative abilities of a large language model (LLM). To bring agentic AI to
+      practice, you create a system that provides an LLM with access to external
+      tools, and algorithms that supply instructions for how the AI agents
+      should use those tools. Agentic AI in a software setting would collect
+      data from other sources, such as APIs, online searches, that help the
+      agents create a sense of perception and context. It can communicate and
+      collaborate with other AI systems and digital infrastructures on behalf of
+      a human user, or another AI agent. It helps achieve productivity, reduce
+      costs and improve user experience. Red Hat® AI and our AI partner
+      ecosystem can help you design the frameworks for building agentic
+      workflows and scaling AI agents.
+
+      Red Hat Enterprise Linux® AI is an agentic orchestration of InstructLab,
+      and can be used for fine-tuning the LLMs and SLMs used by agentic
+      workflows.
+
+      Red Hat OpenShift® AI provides a unified platform to create multi-agent
+      systems.
+  - context: >-
+      Red Hat OpenShift AI provides several workbench images and the ability to
+      add custom images through an admin user interface. It allows for
+      distributed training -it includes training and validation technologies,
+      tuning and inference technologies. It supports data science pipelines that
+      help users prepare a dataset, train a model and deploy it.
+
+      This technical blog will will go into detail about product capabilities,
+      focused on an OpenShift AI end-user.
+    question: >-
+      I want to write a blog about the value of Red Hat OpenShift AI as a
+      platform for building and deploying traditional (predictive) and
+      generative AI models.
+    answer: >-
+      As generative artificial intelligence (GenAI) continues to garner the
+      public’s attention, one thing is more apparent than ever–the pace of
+      innovation is going strong. With GenAI changing so rapidly, many
+      organizations feel difficult to navigate these waters. Many of these
+      enterprises are looking for a consistent, flexible underlying AI
+      foundation for both GenAI and predictive AI to provide the core
+      capabilities for building and augmenting models, serve them in AI-enabled
+      applications and manage and monitor models. Red Hat OpenShift AI is a
+      single platform for both GenAI and predictive AI. Red Hat OpenShift AI
+      provides several workbench images and the ability to add custom images
+      through an admin user interface. Distributed model training is a method
+      that leverages multiple cluster nodes simultaneously for faster, more
+      efficient model training. This approach can be used for both predictive
+      and GenAI training and tuning  on Red Hat OpenShift AI. It also supports
+      pipelines.A sample pipeline may be used to gather data, process it, train
+      the model, download the existing model, compare it with the new model and
+      push the new model into DevTest if it performs better.

@@ -1,0 +1,3 @@
+title_of_work: Blog writing skills
+license_of_the_work: CC BY-SA-4.0
+creator_names: Jehlum Pandit

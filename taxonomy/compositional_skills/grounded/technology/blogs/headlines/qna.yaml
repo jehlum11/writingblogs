@@ -1,0 +1,70 @@
+created_by: jehlum11
+version: 3
+task_description: >-
+  These skills give examples on how to write catchy titles for blogs for Red
+  Hat.
+seed_examples:
+  - context: >-
+      Red Hat Enterprise Linux (RHEL) version 7 is going to be end of life soon,
+      so Red Hat will not be supporting it anymore. We want customers using RHEL
+      7 to upgrade to RHEL version 8 or above. We have automated this upgrade
+      process to help. The title should be catchy and convey all information
+      clearly.
+    question: >-
+      I am writing a 'how-to' blog about automating upgrades for RHEL 7. What
+      would be a good title for it?
+    answer: '''How to automate upgrades before RHEL 7 end of maintenance?'''
+  - context: >-
+      Tekton and Jenkins are CI/CD tools. Jenkins is older, more suitable for
+      monolithic, Java applications. Tekton is cloud-native and more suited for
+      micro services applications. Red Hat OpenShift Pipelines, a CI/CD tool, is
+      also based on the Tekton project. The blog will be a technical comparison
+      of the two tools, in the context  of Red Hat OpenShift. The title should
+      capture all crucial information about the tools, product and what they do,
+      as well as an insight into the blog.
+    question: >-
+      I am writing a blog that compares two CI/CD tools called Tekton and
+      Jenkins, based on their technical attributes. How do I title it?
+    answer: >-
+      'Tekton vs. Jenkins: What's better for CI/CD pipelines on Red Hat
+      OpenShift?'
+  - context: >-
+      For a thought leadership blog, readers can be both technical and business
+      personas. A thought leadership blog typically explains the technology and
+      goes over how the prospective and existing customer, i.e. readers of the
+      blog can use this technology to build new applications and partner with
+      Red Hat for it. The title should be intriguing and invite people to learn
+      more.
+    question: >-
+      I want to write thought leadership blogs about AI/ML and generative AI.
+      Can you give me ideas on topics?
+    answer: >-
+      'What is AI/ML and why does it matter to your business?', 'Generative AI:
+      How it can be applied to business applications today'
+  - context: >-
+      InstructLab is an upstream open-source project that aims to democratize AI
+      development, specifically generative AI development. InstructLab wants to
+      provide everyone the ability to contribute and customize models. The title
+      of the blog should be concise and interesting to draw people to read the
+      blog.
+    question: >-
+      I want to write a blog that encourages people to try out and contribute to
+      an upstream project called InstructLab. Can you give me an idea for a
+      topic?
+    answer: '''How the InstructLab project is working to advance AI efforts'''
+  - context: >-
+      Red Hat Enterprise Linux AI (RHEL AI) is based on the open source project,
+      InstructLab, and combines novel data generation and fine-tuning
+      methodologies. A business benefit-focused blog would cover the values of
+      using RHEL AI and open source technologies for AI development. The title
+      will need to be concise and clear. A deep dive will need to be focused on
+      the technical users, like data scientists or developers, and the title
+      will have to reflect the more technical nature of it.
+    question: >-
+      I am working on a product called RHEL AI. I want to write a blog series
+      that covers the business-level benefit of RHEL AI as well as a deep dive
+      into how the product. Can you give me ideas for this?
+    answer: >-
+      Here are some ideas: 'What is RHEL AI? A guide to the open source way for
+      doing AI' for business benefits. 'How to build custom models with RHEL AI
+      in 5 steps' for a more technical audience.
