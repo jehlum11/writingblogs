@@ -123,7 +123,7 @@ seed_examples:
           Authors should try to put the audience first and provide information
           that will be useful to them.
 document:
-  repo: https://jehlum11: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@github.com/jehlum11/writingblogs
+  repo: https://jehlum11/writingblogs
   commit: e9aad510331b57cb358fe80dc1854c2d88432990
   patterns:
     - "style/*.md"
